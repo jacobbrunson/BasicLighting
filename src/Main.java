@@ -84,7 +84,6 @@ public class Main {
 				}
 			} glEnd();
 		}
-		glFlush();
 		Display.update();
 		Display.sync(60);
 	}
