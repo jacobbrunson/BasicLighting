@@ -28,7 +28,7 @@ public class Main {
 
 
 	private void render() {
-		glClear(GL_COLOR_BUFFER_BIT | GL_STENCIL_BUFFER_BIT); //POSSIBLY REMOVE
+		glClear(GL_COLOR_BUFFER_BIT);
 		for (Light light : lights) {
 			glColorMask(false, false, false, false);
 			glStencilFunc(GL_ALWAYS, 1, 1);
