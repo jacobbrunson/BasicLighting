@@ -1,4 +1,4 @@
-#BasicLighting#
+# BasicLighting #
 
 
 A 2D lighting system using OpenGL, LWJGL, Java.
